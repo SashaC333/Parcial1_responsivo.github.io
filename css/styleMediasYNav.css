@@ -1,0 +1,119 @@
+.topNav.responsive a{
+    display: block;
+    background-color: #0ca789;
+}
+
+.topNav.responsive{
+    position: relative;
+}
+.topNav.responsive a.icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .cajaInfo {
+        display: block;
+        height: 340px;
+    }
+
+    .cajaInfoR {
+        height: 340px;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .imagen,
+    .imagenR {
+        display: flex;
+        align-items: center;
+    }
+
+    .imagen img,
+    .imagenR img {
+        height: 40%;
+    }
+    footer {
+        font-size: 80%;
+    }
+
+    footer img {
+        height: 70%;
+    }
+    .redes li img {
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    nav a {
+        display: none;
+    }
+    nav a.icon {
+        display: block;
+    }
+
+    .cajaInfo,
+    .cajaInfoMov {
+        display: block;
+        height: 30%;
+        margin-bottom: 20px;
+    }
+    .cajaInfoR{
+        display: inline-block;
+        height: 30%;
+    }
+
+    .cajaInfoR .resumenTop{
+        height: auto;
+        width: 100%;
+    }
+
+    .cajaInfoR .indice{
+        height: auto;
+        width: 100%;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .cajaInfo .imagen{
+        height: auto;
+        width: 100%;
+        max-height: 240px;
+        border-radius: 20px 20px 0 0;
+        display: flex;
+        justify-content: center;
+    }
+    .cajaInfoR .imagenR {
+        height: auto;
+        width: 100%;
+        max-height: 240px;
+        border-radius: 0 0 20px 20px ;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cajaInfo .imagen img,
+    .cajaInfoR .imagenR img {
+        width: 50%;
+    }
+
+    .info,
+    .infoR,
+    .infoMov {
+        height: 100%;
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+    

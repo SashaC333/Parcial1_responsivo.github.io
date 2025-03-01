@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+header{
+    background-color: #193768;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+}
+header img{
+    height: 100%;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    background-color:#0ca789;
+
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+nav a{
+    color: #ede8e9;
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px ;
+    font-size: 20px;
+    
+}
+nav a:hover{
+    font-weight: bold;
+    border-bottom: #ede8e9 1px solid;
+}
+nav a.icon{
+    align-self:flex-end;
+    display: none;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ede8e9;
+    color: #193768;
+    padding: 40px;
+}
+
+.cajaInfo{
+    width: 90%;
+    height: 240px;
+    margin-left: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    background: white;
+    border-radius: 20px;
+}
+
+
+/*Indice*/
+
+.resumenTop {
+    width: 50%;
+    float: left; /* Coloca el resumen a la izquierda */
+    padding: 10px;
+}
+
+.indice {
+    width: 50%;
+    height: 100%;
+    float: left; 
+    padding: 20px;
+    background-color: #193768;
+    border-radius: 0 20px 20px 0;
+}
+.indice li{
+    margin-left: 10px;
+    padding: 5px;
+    color: #ede8e9;
+}
+.indice a{
+    text-decoration: none;
+    color: #ede8e9;
+}
+
+/*Inofrmacion*/
+h2{
+    color: #0ca789;
+}
+/*Imagen izquierda*/
+.imagen{
+    height: 100%;
+    background-color: #193768;
+    border-radius: 20px 0 0 20px;
+    float: left; 
+    margin-right: 10px;
+}
+.imagen img{
+    height: 100%;
+}
+.info{
+    height: 240px;
+    padding: 10px;
+}
+/*imagen derecha*/
+.cajaInfoR {
+    width: 90%;
+    height: 240px;
+    margin-left: 5%;
+    margin-top: 30px;
+    display: flex;
+    background: white;
+    border-radius: 20px;
+}
+.imagenR {
+    height: 100%;
+    background-color: #193768;
+    border-radius: 0 20px 20px 0;
+    float: right; 
+    margin-left: 10px; 
+}
+
+.imagenR img {
+    height: 100%;
+}
+
+.infoR {
+    height: 240px;
+    padding: 10px;
+    float: left; 
+}
+/*Mobilizacion de recursos CAJA*/
+.cajaInfoMov{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 30px;
+    display: inline-block;
+    background: #193768;
+    border-radius: 20px;
+    color: #ede8e9;
+}
+.infoMov{
+    padding: 20px;
+}
+.cajaInfoMov h2{
+    color: #ede8e9;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.i-btn{
+    background-color: #0ca789;
+    padding: 3px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #ede8e9;
+    font-size: 13px;
+}
+p{
+    margin-bottom: 10px;
+}
+
+/*Footer*/
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #193768;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+}
+footer img{
+    height: 100%;
+}
+
+footer .creditos, footer .redes{
+    padding: 15px;
+    text-align: center;
+}
+h3, .contacto h2{
+    color: #0ca789;
+    margin-bottom: 10px;
+    border-bottom: #0ca789 2px solid;
+    text-align: center;
+}
+.creditos ul{
+    list-style:none;
+    color: #ede8e9;
+    padding: 5px;
+}
+.redes ul{
+    height: 55px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.redes ul li{
+    height: 55px;
+    padding: 5px;
+}
+
+.redes li img{
+    height: 60%;
+}
+
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter/Inter_18pt-Medium.ttf);
+}
+
+
